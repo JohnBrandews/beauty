@@ -1,0 +1,178 @@
+@font-face {
+    font-family: RobotoMono;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: RobotoMono;
+}
+body {
+    background-color: azure;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+    font-size: 11px;
+    
+}
+header .left {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+header .right  {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+header .right .icon i {
+    margin-right: 10px;
+}
+header .right .link {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+header .right .link a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 90px;
+    
+}
+nav .left{
+    margin-left: 20px;
+    display: flex;
+    
+    /* border: 2px solid pink; */
+}
+nav .right{
+    display: flex;
+    margin-right: 20px;
+}
+nav .right .links{
+    display: flex;
+    
+}
+nav .right .links li {
+    list-style: none;
+    /* border: 2px solid red; */
+    
+}
+nav .right .links li a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+nav .right .links li a:hover{
+    color: rgb(245, 158, 172);  
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+section .middle{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    padding: 20px;
+
+}
+  .middle p{
+    margin-top: 20px;
+}
+.middle h5{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.middle h5:hover{
+    transform: scale( 1.2);
+    transition-duration: 300ms;
+    cursor:progress;
+}
+.middle i{
+    place-content: center;
+    margin-left: 50px;
+    font-size: 20px;  
+}
+.content{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* padding: 50px; */
+    gap: 15px;
+}
+.content h5{
+    font-size: 20px;
+    transition-duration: 300ms;
+}
+.content h5:hover{
+   
+    /* transform: scale( 1.2); */
+    transition-duration: 300ms;
+    padding-left: 10px;
+    color: blueviolet;
+    /* cursor:progress;  */
+}
+.content button{
+    margin-top: 20px;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+.post{
+    display: flex;
+    margin-top: 50px;
+}
+.post img{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+.about{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.about h5{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    transition: .5s ease;
+}
+.about h5:hover{
+    padding-left: 10px;
+    color: rgb(219, 11, 219);
+    transition: .5s ease;
+}
+
+.more{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.more .picture{
+    margin-left: 100px;
+}
+.more .skill{
+margin-right: 70px;
+}
